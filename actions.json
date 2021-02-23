@@ -1,0 +1,27 @@
+[
+    {
+        "type": "WordPress",
+        "actions": {
+            "folders": ["assets", "blocks", "functions"],
+            "files": [
+                {
+                    "from": "http://localhost/samples/cpt.php",
+                    "to": ""
+                }
+            ]
+        }
+    }
+
+    {
+        "type": "Assets",
+        "actions": {
+            "folders": ["css", "js"],
+            "files": [
+                {
+                    "from": "http://localhost/samples/style.css",
+                    "to": ""
+                }
+            ]
+        }
+    }
+]

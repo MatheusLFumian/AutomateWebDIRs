@@ -1,0 +1,9 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\cdftv_actions]
+@="Criar Diretorios Para WP"
+"Icon"="E:\\Matheus\\Documents\\Pythton-Projects\\AutomateDIRWP\\app.ico"
+
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\cdftv_actions\command]
+@="\"E:\\Matheus\\Documents\\Pythton-Projects\\AutomateDIRWP\\dist\\actions.exe\" \"%v.\""
